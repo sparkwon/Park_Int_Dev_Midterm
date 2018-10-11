@@ -8,6 +8,8 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="BikeControl.cs" t="Include" />
+          <e p="CarMover.cs" t="Include" />
+          <e p="CarSpawner.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
