@@ -12,32 +12,33 @@
     <session id="1154290617">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="3" />
+          <entry key="cs" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="3" />
+          <entry key="C#" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="977" />
+          <entry key="cs" value="2204" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="977" />
+          <entry key="C#" value="2204" />
         </counts>
       </usages-collector>
     </session>
@@ -61,21 +62,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/BikeControl.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+            <state relative-caret-position="552">
+              <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
               <folding>
-                <marker date="1539230911599" expanded="false" signature="6:78" ph="..." />
-                <marker date="1539230911599" expanded="true" signature="121:2102" ph="{...}" />
-                <marker date="1539230911599" expanded="true" signature="393:487" ph="{...}" />
-                <marker date="1539230911599" expanded="true" signature="547:1611" ph="{...}" />
-                <marker date="1539230911599" expanded="true" signature="812:889" ph="/* rotate y axis for movement/look ... */" />
-                <marker date="1539230911599" expanded="true" signature="1233:1357" ph="/* Input.GetAxis returns a number between -1f and 1f.... 0f is nothing is pressed ... */" />
-                <marker date="1539230911599" expanded="true" signature="1635:2100" ph="{...}" />
-                <marker date="1539230911599" expanded="true" signature="1778:1857" ph="{...}" />
-                <marker date="1539230911599" expanded="true" signature="1895:1960" ph="{...}" />
+                <marker date="1539230935713" expanded="false" signature="6:78" ph="..." />
+                <marker date="1539230935713" expanded="true" signature="121:2102" ph="{...}" />
+                <marker date="1539230935713" expanded="true" signature="393:487" ph="{...}" />
+                <marker date="1539230935713" expanded="true" signature="547:1611" ph="{...}" />
+                <marker date="1539230935713" expanded="true" signature="812:889" ph="/* rotate y axis for movement/look ... */" />
+                <marker date="1539230935713" expanded="true" signature="1233:1357" ph="/* Input.GetAxis returns a number between -1f and 1f.... 0f is nothing is pressed ... */" />
+                <marker date="1539230935713" expanded="true" signature="1635:2100" ph="{...}" />
+                <marker date="1539230935713" expanded="true" signature="1778:1857" ph="{...}" />
+                <marker date="1539230935713" expanded="true" signature="1895:1960" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BikeControlV2.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+              <folding>
+                <marker date="1539666470570" expanded="false" signature="6:78" ph="..." />
+                <marker date="1539666470570" expanded="true" signature="124:719" ph="{...}" />
+                <marker date="1539666470570" expanded="true" signature="324:445" ph="{...}" />
+                <marker date="1539666470570" expanded="true" signature="470:717" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/betterMouseLook.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+              <folding>
+                <marker date="1539268460310" expanded="true" signature="6:78" ph="..." />
+                <marker date="1539268460310" expanded="true" signature="80:185" ph="/* usage: put this on a capsule with a Rigidbody ... */" />
+                <marker date="1539268460310" expanded="true" signature="478:2264" ph="{...}" />
+                <marker date="1539268460310" expanded="true" signature="482:685" ph="/* mouse look ... */" />
+                <marker date="1539268460310" expanded="true" signature="901:1386" ph="/* negative mouseX = moving your mouse to the left, etc. ... */" />
+                <marker date="1539268460310" expanded="true" signature="1448:1625" ph="/* Camera.main.transform.Rotate(-mouseY, 0f, 0f); // this is the same thing as the line above ... */" />
+                <marker date="1539268460310" expanded="true" signature="1762:1870" ph="/* APPLY ROTATION ... */" />
+                <marker date="1539268460310" expanded="true" signature="1969:2066" ph="/* BETTER MOUSE LOOK: LOCK AND HIDE THE MOUSE CURSOR ... */" />
+                <marker date="1539268460310" expanded="true" signature="2101:2258" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -106,8 +142,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CarSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BikeControlV2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BikeControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../week04_physicsPlayerCode/Assets/Scripts/CarControl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/betterMouseLook.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CarMover.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -116,6 +154,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CarMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CarSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BikeControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/betterMouseLook.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BikeControlV2.cs" />
       </list>
     </option>
   </component>
@@ -125,9 +165,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="712" />
-    <option name="width" value="1217" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="710" />
+    <option name="width" value="1219" />
     <option name="height" value="1039" />
   </component>
   <component name="ProjectView">
@@ -135,13 +175,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,12 +231,14 @@
       <workItem from="1538487990829" duration="8000" />
       <workItem from="1538488045127" duration="1861000" />
       <workItem from="1538662374672" duration="5469000" />
-      <workItem from="1539215465686" duration="7819000" />
+      <workItem from="1539215465686" duration="8467000" />
+      <workItem from="1539266111358" duration="3132000" />
+      <workItem from="1539655514398" duration="6910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15161000" />
+    <option name="totallyTimeSpent" value="25851000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -208,10 +250,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="570" y="0" width="973" height="831" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0054764515" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0033557047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -294,20 +336,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/betterMouseLook.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+          <folding>
+            <marker date="1539268460310" expanded="true" signature="6:78" ph="..." />
+            <marker date="1539268460310" expanded="true" signature="80:185" ph="/* usage: put this on a capsule with a Rigidbody ... */" />
+            <marker date="1539268460310" expanded="true" signature="478:2264" ph="{...}" />
+            <marker date="1539268460310" expanded="true" signature="482:685" ph="/* mouse look ... */" />
+            <marker date="1539268460310" expanded="true" signature="901:1386" ph="/* negative mouseX = moving your mouse to the left, etc. ... */" />
+            <marker date="1539268460310" expanded="true" signature="1448:1625" ph="/* Camera.main.transform.Rotate(-mouseY, 0f, 0f); // this is the same thing as the line above ... */" />
+            <marker date="1539268460310" expanded="true" signature="1762:1870" ph="/* APPLY ROTATION ... */" />
+            <marker date="1539268460310" expanded="true" signature="1969:2066" ph="/* BETTER MOUSE LOOK: LOCK AND HIDE THE MOUSE CURSOR ... */" />
+            <marker date="1539268460310" expanded="true" signature="2101:2258" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BikeControl.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+        <state relative-caret-position="552">
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
           <folding>
-            <marker date="1539230911599" expanded="false" signature="6:78" ph="..." />
-            <marker date="1539230911599" expanded="true" signature="121:2102" ph="{...}" />
-            <marker date="1539230911599" expanded="true" signature="393:487" ph="{...}" />
-            <marker date="1539230911599" expanded="true" signature="547:1611" ph="{...}" />
-            <marker date="1539230911599" expanded="true" signature="812:889" ph="/* rotate y axis for movement/look ... */" />
-            <marker date="1539230911599" expanded="true" signature="1233:1357" ph="/* Input.GetAxis returns a number between -1f and 1f.... 0f is nothing is pressed ... */" />
-            <marker date="1539230911599" expanded="true" signature="1635:2100" ph="{...}" />
-            <marker date="1539230911599" expanded="true" signature="1778:1857" ph="{...}" />
-            <marker date="1539230911599" expanded="true" signature="1895:1960" ph="{...}" />
+            <marker date="1539230935713" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539230935713" expanded="true" signature="121:2102" ph="{...}" />
+            <marker date="1539230935713" expanded="true" signature="393:487" ph="{...}" />
+            <marker date="1539230935713" expanded="true" signature="547:1611" ph="{...}" />
+            <marker date="1539230935713" expanded="true" signature="812:889" ph="/* rotate y axis for movement/look ... */" />
+            <marker date="1539230935713" expanded="true" signature="1233:1357" ph="/* Input.GetAxis returns a number between -1f and 1f.... 0f is nothing is pressed ... */" />
+            <marker date="1539230935713" expanded="true" signature="1635:2100" ph="{...}" />
+            <marker date="1539230935713" expanded="true" signature="1778:1857" ph="{...}" />
+            <marker date="1539230935713" expanded="true" signature="1895:1960" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BikeControlV2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+          <folding>
+            <marker date="1539666470570" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539666470570" expanded="true" signature="124:719" ph="{...}" />
+            <marker date="1539666470570" expanded="true" signature="324:445" ph="{...}" />
+            <marker date="1539666470570" expanded="true" signature="470:717" ph="{...}" />
           </folding>
         </state>
       </provider>
