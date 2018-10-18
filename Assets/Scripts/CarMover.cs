@@ -11,7 +11,7 @@ public class CarMover : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		rBody = GetComponent<Rigidbody>();
-		moveSpeed = Random.Range(1, 8);
+		moveSpeed = Random.Range(2, 6);
 	}
 	
 	// Update is called once per frame
