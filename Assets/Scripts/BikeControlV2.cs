@@ -15,6 +15,13 @@ public class BikeControlV2 : MonoBehaviour
 	public Rigidbody rb;
 
 	private float upDownRotation;
+	private float leftRightRotation;
+
+	private float rightBodyNumber;
+	private float leftBodyNumber;
+	
+	//instructions screen
+	public GameObject instructions;
 	
 	
 	void Start ()
@@ -34,10 +41,14 @@ public class BikeControlV2 : MonoBehaviour
 		// BETTER MOUSE LOOK add mouseinput to upDownRotation AND clamp upDownRotation
 		upDownRotation -= mouseY;
 		upDownRotation = Mathf.Clamp(upDownRotation, -80, 80); //clamp vertical look rotation between -80/80
+
+		leftRightRotation += mouseX;
+		leftRightRotation = Mathf.Clamp(leftRightRotation, -80f, 80f);
 		
 		//Apply rotation
 		//Camera.main.transform.Rotate(0f, mouseX, 0f);
-		Camera.main.transform.localEulerAngles = new Vector3(upDownRotation, 0f, 0f);
+		Camera.main.transform.localEulerAngles = new Vector3(upDownRotation, leftRightRotation, 0f);
+		
 		
 		//BETTER MOUSE LOOK: LOCK AND HIDE THE MOUSE CURSOR
 		//important: do this when the player clicks
@@ -46,6 +57,42 @@ public class BikeControlV2 : MonoBehaviour
 			Cursor.lockState = CursorLockMode.Locked;	//lock cursor to center of the screen
 			Cursor.visible = false; //hides the cursor too just to be safe
 		}
+		
+		
+		//body tilt code
+		if (Input.GetKey(KeyCode.D))
+		{
+			//rightBodyNumber = 0;
+			rightBodyNumber += 1;
+			rightBodyNumber= Mathf.Clamp(rightBodyNumber, 0, 10);
+			
+			gameObject.transform.GetChild(2).localEulerAngles = new Vector3 (rightBodyNumber, 90f, 0f);
+			
+		}
+		else if (Input.GetKey(KeyCode.A))
+		{
+			leftBodyNumber -= 1;
+			leftBodyNumber = Mathf.Clamp(leftBodyNumber, -10, 0);
+
+			gameObject.transform.GetChild(2).localEulerAngles = new Vector3(leftBodyNumber, 90f, 0f);
+			
+		}
+		else
+		{
+			gameObject.transform.GetChild(2).localEulerAngles = new Vector3 (0f, 90f, 0f);
+		}
+		
+		//instruction screen
+		if (Input.GetKey(KeyCode.C))
+		{
+			instructions.SetActive(true);
+		}
+		else
+		{
+			instructions.SetActive(false);
+		}
+		
+		
 	}
 	
 	
@@ -55,8 +102,10 @@ public class BikeControlV2 : MonoBehaviour
 		BRwheel.motorTorque = maxTorque * Input.GetAxis("Vertical");
 		FLwheel.motorTorque = maxTorque * Input.GetAxis("Vertical");
 		FRwheel.motorTorque = maxTorque * Input.GetAxis("Vertical");
-		FLwheel.steerAngle = 60 * Input.GetAxis("Horizontal");
-		FRwheel.steerAngle = 60 * Input.GetAxis("Horizontal");
+		FLwheel.steerAngle = 80 * Input.GetAxis("Horizontal");
+		FRwheel.steerAngle = 80 * Input.GetAxis("Horizontal");
+		
+		
 
 	}
 	
